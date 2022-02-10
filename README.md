@@ -14,11 +14,9 @@ Give your Github username to the TAs! Once you've been invited, we can get start
 _If you didn't bring a computer, or are unfamiliar with terminal commands, make a friend_
 
 ---
-# BioData Club
+# Adapted from the OHSU BioData Club -- repository was maintained by Philip Robinson
 
-#### Thanks to OHSU for hosting
-
-#### Thanks to Philip, Ted, Lisa, Robin
+#### Thanks to Philip, Ted, Lisa, Robin for creating this walkthrough
 
 <img src="https://avatars0.githubusercontent.com/u/1081871?s=460&v=4" width="200px" /> <img src="https://avatars0.githubusercontent.com/u/3315629?s=460&v=4" width="200px" /> <img src="https://avatars0.githubusercontent.com/u/19511476?s=400&v=4" width="200px" /> <img src="https://avatars3.githubusercontent.com/u/15355483?s=460&v=4" width="200px" />
 
@@ -183,44 +181,6 @@ $ git config --global user.email johndoe@example.com
 
 ---
 # ![The Fatal Lozenge](images/lozenge.png)
-
----
-# Rules of the Game (15 min)
-- 10 people per repository team {red, blue, black}
-- Each panel represents one entry from poem
-- Split panel text lines with <= 80 characters
-- Panels ordered alphabetically (by second word)
-- Your team is done when all panels added
-- Do a `diff` against `origin/master` before a `merge`
-- Review the `log` at least once (`q` to quit)
-
-<sup>
-team == red
-https://github.com/PortlandDataScienceGroup/red.git
-</sup>
-
----
-# Git Commands
-- `status`, `diff`, `log`
-- `clone`, `init`
-- `fetch`, `merge`, `commit`, `push`, `fetch`
-
-```bash
-$ git clone https://github.com/PortlandDataScienceGroup/ABC.git
-Cloning into 'ABC'...
-remote: Counting objects: 500, done.
-remote: Compressing objects: 100% (36/36), done.
-remote: Total 500 (delta 27), reused 33 (delta 12), pack-reused 451
-Receiving objects: 100% (500/500), 6.72 MiB | 1.71 MiB/s, done.
-Resolving deltas: 100% (286/286), done.
-Checking connectivity... done.
-$
-```
-
----
-# Intermission
-- Complete the Game
-- Signal TAs for help if you get stuck!
 
 ---
 # .gitignore
